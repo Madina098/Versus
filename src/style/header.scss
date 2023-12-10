@@ -1,0 +1,29 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 43px;
+    &__nav {
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+    }
+    &__title {
+        color: #FFF;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    &__links {
+        display: flex;
+        column-gap: 40px;
+    }
+    &__link {
+        color: #999;
+        font-size: 13px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        &:hover {
+            color: #00D6B4;
+        }
+    }
+}

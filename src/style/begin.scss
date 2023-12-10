@@ -1,0 +1,25 @@
+.begin {
+    background: url("../assets/begin.png")center/cover no-repeat ;
+    padding: 226px 0 140px;
+    &__content {
+        text-align: center;
+    }
+    &__title {
+        color: #FFF;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 53px;
+            /* 110.417% */
+         margin-bottom: 29px;   
+    }
+    &__btn {
+        padding: 10px 26px; 
+        background: transparent;
+        border-radius: 3px;
+        border: 1px solid #00D6B4;
+        color: #00D6B4;
+        font-size: 13px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+}
